@@ -42,6 +42,9 @@
   margin: 8px 0 0;
 }
 
+.nav__link {
+}
+
 .header__content {
   display: flex;
   flex-direction: row;
@@ -60,7 +63,7 @@
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 0;
+  margin-top: auto;
 }
 
 .header__image {
@@ -158,4 +161,3 @@
   line-height: 20px;
   color: #838383;
 }
-
