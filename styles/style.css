@@ -357,7 +357,6 @@
   display: flex;
   position: relative;
   justify-content: flex-end;
-  column-gap: 80px;
 }
 
 .footer__column_content_hours {
@@ -368,7 +367,7 @@
 
 .footer__column_content_social {
   display: block;
-  margin-left: 0;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -396,7 +395,7 @@
 .footer__column-link {
   display: flex;
   text-decoration: none;
-  align-items: stretch;
+  align-items: center;
   column-gap: 10px;
   margin: 0;
   padding: 0;
