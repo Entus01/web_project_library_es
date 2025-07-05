@@ -350,6 +350,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   padding: 60px 80px;
+  color: white;
 }
 
 .footer__columns {
@@ -362,13 +363,10 @@
 .footer__column_content_hours {
   right: 80px;
   padding: 0;
-  color: white;
-  margin: 0;
 }
 
 .footer__column_content_social {
-  color: white;
-  margin: 0;
+  display: block;
 }
 
 .footer__logo {
@@ -390,18 +388,17 @@
 }
 
 .footer__list-item {
-  display: block;
   margin-top: 16px;
 }
 
 .footer__column-link {
   display: flex;
-  color: white;
   text-decoration: none;
   align-items: flex-start;
   column-gap: 10px;
   margin: 0;
   padding: 0;
+  color: #ffffff;
 }
 
 .footer__social-icon {
@@ -411,5 +408,4 @@
 
 .footer__copyright {
   margin-top: 100px;
-  color: white;
 }
