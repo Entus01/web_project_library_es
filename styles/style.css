@@ -363,10 +363,12 @@
 .footer__column_content_hours {
   right: 80px;
   padding: 0;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
   display: block;
+  margin-left: 0;
 }
 
 .footer__logo {
@@ -394,7 +396,7 @@
 .footer__column-link {
   display: flex;
   text-decoration: none;
-  align-items: flex-start;
+  align-items: stretch;
   column-gap: 10px;
   margin: 0;
   padding: 0;
