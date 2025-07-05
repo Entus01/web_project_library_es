@@ -393,8 +393,11 @@
 }
 
 .footer__column-link {
+  display: flex;
   color: white;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__social-icon {
