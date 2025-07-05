@@ -348,7 +348,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   padding: 60px 80px;
 }
 
@@ -363,10 +363,12 @@
   right: 80px;
   padding: 0;
   color: white;
+  margin: 0;
 }
 
 .footer__column_content_social {
   color: white;
+  margin: 0;
 }
 
 .footer__logo {
@@ -396,6 +398,8 @@
   display: flex;
   color: white;
   text-decoration: none;
+  align-items: flex-start;
+  column-gap: 10px;
   margin: 0;
   padding: 0;
 }
@@ -403,7 +407,6 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
